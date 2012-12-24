@@ -11,13 +11,15 @@
 * 在你的html文件中插入如下代码
 
 
-    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase=" http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab #version=6,0,29,0 " width="165" height="120">
+```html
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase=" http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab #version=6,0,29,0 " width="165" height="120">
     <param name="movie" value="plugin/mp3player.swf">
     <param name="quality" value="low">
     <param name="wmode" value="transparent">
     <param name="menu" value="false">
     <embed src="plugin/mp3player.swf" quality="low" pluginspage=" http://www.macromedia.com/go/getflashplayer " type="application/x-shockwave-flash" width="166" height="120"></embed>
-    </object>
+</object>
+```
 
 
 替换你上传的swf的地址
@@ -26,12 +28,14 @@
 * 编辑 mp3list.xml，并上传对应的 mp3 文件
 
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <mp3>
-        <I n="IRIS" f="mp3/iris.mp3" a="GOO GOO DOLLS"/>
-        <I n="十年" f="mp3/tenyears.mp3" a="陈奕迅"/>
-        <I n="Don't You Forget" f="mp3/dontyouforget.mp3" a="ERA"/>
-    </mp3>
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<mp3>
+    <I n="IRIS" f="mp3/iris.mp3" a="GOO GOO DOLLS"/>
+    <I n="十年" f="mp3/tenyears.mp3" a="陈奕迅"/>
+    <I n="Don't You Forget" f="mp3/dontyouforget.mp3" a="ERA"/>
+</mp3>
+```
 
 
 每个 i 标签即指定一份 mp3 文件, n 属性指定歌名, f 属性指定对应的mp3文件地址, a 属性为可选, 指定专辑名
