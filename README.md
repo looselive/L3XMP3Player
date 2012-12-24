@@ -2,7 +2,7 @@
 
 ![Screenshot](https://github.com/lexrus/L3XMP3Player/raw/master/l3xmp3player.png)
 
-这是 2003 年我初学 Flash 时做的 MP3 播放器。用到的数字液晶字体是我自己做的，界面是我用 Fireworks 设计的。虽然源码已经跟着我的老电脑一起消失了，但是编译后的 swf 在网上广为流转，[直到现在还有一些网站在用](https://www.google.com/#hl=en&q=l3x+mp3+player)。
+这是 2003 年我初学 Flash 时做的 MP3 播放器。界面中用到了 [04 字体](http://www.04.jp.org)，数字液晶字体是我自己另外做的，界面用 Fireworks 设计。虽然源码已经跟着我的老电脑一起消失了，但是编译后的 swf 在网上广为流转，[直到现在还有一些网站在用](https://www.google.com/#hl=en&q=l3x+mp3+player)。
 
 ## 怎样使用
 
